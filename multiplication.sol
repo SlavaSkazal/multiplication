@@ -13,7 +13,7 @@ contract multiplication {
 
 	function multiply (uint value) public {
 		require(value > 0 && value < 11, 101);
-        tvm.accept();
-        number *= value;
+    	tvm.accept();
+    	number *= value;
 	}
 }
